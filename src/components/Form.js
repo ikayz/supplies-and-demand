@@ -39,12 +39,12 @@ const Form = () => {
         <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-full content-right">
           Login
         </button>
-        {/* <a
+        <a
           class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker"
           href="#"
         >
-          Forgot Password?
-        </a> */}
+          Sign up
+        </a>
       </div>
     </div>
   );
