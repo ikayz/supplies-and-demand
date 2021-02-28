@@ -2,6 +2,8 @@ import React from "react";
 import "../index.css";
 import CardImage from "./cardbg-1.jpg";
 import CardImage2 from "./cardbg-2.jpg";
+import Logo from "./Earth.png";
+import UserIcon from "./user.png";
 
 const UserDashboard = ({ fixed }) => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -9,12 +11,14 @@ const UserDashboard = ({ fixed }) => {
     <>
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-white-500 mb-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+          <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start uppercase">
             <button
-              className="bg-gray-500 hover:bg-gray-700 text-white font-bold px-8 py-3 rounded-full content-right"
+              className="bg-gray-500 hover:bg-gray-700 text-white font-bold px-8 py-3 rounded-full content-right inline-flex"
               href="#"
             >
-              <i className="fas fa-bars"></i> Sad
+              <img src={Logo} width={25} />
+              &nbsp;&nbsp;
+              <span className="uppercase">Sad</span>
             </button>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
@@ -34,10 +38,12 @@ const UserDashboard = ({ fixed }) => {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <button
-                  className="bg-gray-500 hover:bg-gray-700 text-white font-bold px-8 py-3 rounded-full content-right"
+                  className="bg-gray-500 hover:bg-gray-700 text-white font-bold px-8 py-3 rounded-full content-right inline-flex"
                   href="#"
                 >
-                  <span className="ml-2">John D.</span>
+                  <img src={UserIcon} width={25} />
+                  &nbsp;&nbsp;
+                  <span className="uppercase">John D.</span>
                 </button>
               </li>
             </ul>
