@@ -3,7 +3,7 @@ import "../index.css";
 import CardImage from "./water.jpg";
 import CardImage2 from "./food.jpg";
 
-const Supplies = ({ fixed }) => {
+const Provide = ({ fixed }) => {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <>
@@ -58,7 +58,7 @@ const Supplies = ({ fixed }) => {
           </div>
         </div>
       </nav> */}
-      <h1 style={{ color: "black", margin: -20 }}>I need ...</h1>
+      <h1 style={{ color: "black", margin: -20 }}>I can provide</h1>
       <div
         style={{ marginLeft: "4.5em", marginTop: "8em", marginBottom: "5em" }}
         className="flex flex-row content-center"
@@ -106,4 +106,4 @@ const Supplies = ({ fixed }) => {
   );
 };
 
-export default Supplies;
+export default Provide;
