@@ -14,10 +14,9 @@ const Home = () => {
         }}
         className="background-image"
       >
-        <h1>Supplies and Demand</h1>
       </div>
       <div className="left">
-        <h1 style={{ color: "black" }}>Welcome to _</h1>
+        <h1 style={{ color: "black" }}>Welcome to Supplies and Demand!</h1>
         <div style={{ textAlign: "center", padding: "10em" }}>
           <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-full content-center">
             Login &nbsp;&nbsp;&nbsp;
