@@ -3,13 +3,15 @@ import "./App.css";
 import Home from "./components/Home";
 import Form from "./components/Form";
 import SignUp from "./components/SignUp";
+import UserDashboard from "./components/UserDashboard";
 
 function App() {
   return (
     <Fragment>
-      {/* <Home /> */}
+      <Home />
       {/* <Form /> */}
-      <SignUp />
+      {/* <SignUp /> */}
+      {/* <UserDashboard /> */}
     </Fragment>
   );
 }
