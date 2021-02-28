@@ -100,7 +100,7 @@ const Supplies = ({ fixed }) => {
         </div>
       </div>
       <div style={{ textAlign: "center", padding: "5em" }}>
-        <button class="bg-blue-500 hover:bg-success-700 text-white font-bold px-8 py-3 rounded-full content-center">
+        <button class="bg-green-500 hover:bg-success-700 text-white font-bold px-8 py-3 rounded-full content-center">
           Next
         </button>
       </div>

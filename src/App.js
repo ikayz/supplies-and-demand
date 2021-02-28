@@ -5,6 +5,7 @@ import Form from "./components/Form";
 import SignUp from "./components/SignUp";
 import UserDashboard from "./components/UserDashboard";
 import Supplies from "./components/Supplies";
+import Country from "./components/Country";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       {/* <Form /> */}
       {/* <SignUp /> */}
       {/* <UserDashboard /> */}
-      <Supplies />
+      {/* <Supplies /> */}
+      <Country />
     </Fragment>
   );
 }
