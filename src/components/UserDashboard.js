@@ -53,7 +53,7 @@ const UserDashboard = ({ fixed }) => {
             class="max-w-sm rounded overflow-hidden shadow-lg"
             style={{ background: "#2B6CB0", color: "#fff" }}
           >
-            <img class="w-full" src={CardImage} alt="Mountain" />
+            <img class="w-full" src={CardImage} alt="Receiving hands" />
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">I need supplies</div>
             </div>
@@ -64,7 +64,7 @@ const UserDashboard = ({ fixed }) => {
             class="max-w-sm rounded overflow-hidden shadow-lg"
             style={{ background: "#2B6CB0", color: "#fff" }}
           >
-            <img class="w-full" src={CardImage2} alt="Mountain" />
+            <img class="w-full" src={CardImage2} alt="Giving hands" />
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2">I can give supplies</div>
             </div>
